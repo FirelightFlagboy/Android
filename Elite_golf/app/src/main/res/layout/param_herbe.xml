@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <View
+        android:layout_marginBottom="5dip"
+        android:layout_height="50dip"
+        android:background="@color/colorPrimary"
+        android:layout_width="match_parent"
+        android:id="@+id/View"
+        />
+    <Button
+        style="@style/ic_retour"
+        android:id="@+id/Menu" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        style="@style/title_msg"
+        android:layout_alignBaseline="@id/Menu"
+        android:textColor="@color/colorWhite"
+        android:layout_centerInParent="true"
+        android:text="Choix du Club"/>
+
+    <TextView
+        android:layout_below="@id/Menu"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Condition méteo"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:textColor="@color/colorBlueDark"
+        android:id="@+id/M"/>
+    <RadioGroup
+        android:layout_below="@id/M"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:id="@+id/Meteo">
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Pluvieux"
+            android:id="@+id/Pluv"/>
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Nuageux"
+            android:id="@+id/Naug"/>
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Ensoleillé"
+            android:id="@+id/Enso"
+            android:checked="true"/>
+    </RadioGroup>
+    <TextView
+        android:layout_below="@id/Meteo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Distance entre la balle et le trou"
+        android:gravity="center"
+        android:textColor="@color/colorBlueDark"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:id="@+id/D"
+        />
+    <EditText
+        android:layout_below="@id/D"
+        android:id="@+id/Distance"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="saisir la distance entre la balle est le trou"
+        android:inputType="number"
+        />
+    <RadioGroup
+        android:layout_below="@id/Distance"
+        android:id="@+id/D_herbe"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        >
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Centimètre"
+            android:id="@+id/Centi"
+            />
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="mètre"
+            android:checked="true"
+            android:id="@+id/Metre"
+            />
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="kilomètre"
+            android:id="@+id/Kilom"
+            />
+    </RadioGroup>
+    <TextView
+        android:layout_below="@id/D_herbe"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Hauteur de l'herbe"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:textColor="@color/colorBlueDark"
+        android:id="@+id/H"
+        />
+    <RadioGroup
+        android:layout_below="@id/H"
+        android:id="@+id/H_herbe"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center">
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Green"
+            android:id="@+id/Green"/>
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Bunker"
+            android:id="@+id/Bunk"/>
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Fairway"
+            android:id="@+id/Fairw"/>
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Rough"
+            android:id="@+id/Rough"/>
+    </RadioGroup>
+    <Button
+        android:layout_below="@id/H_herbe"
+        android:id="@+id/selec_club"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="selection du club "/>
+    <TextView
+        android:layout_below="@id/selec_club"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Resultat : "
+        android:id="@+id/R"/>
+    <TextView
+        android:layout_below="@id/R"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/resultat"
+        android:text="pour obtenir  un resultat cliker sur ''SELECTION DU CLUB''"/>
+
+</RelativeLayout>

@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">"Elite golf"</string>
+    <string name="parm_herb">"paramètre du terrain"</string>
+    <string name="c_club">Choix du club</string>
+    <string name="c_parc">Mon parcour</string>
+    <string name="statis">Mes statistique</string>
+    <string name="info">Mes information</string>
+    <string name="bleut">Bluetooth</string>
+    <string name="param">Réglages</string>
+    <string name="title_couleur">"couleur fav"</string>
+</resources>

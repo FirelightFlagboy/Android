@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.lord_arduino.fr.elite_golf">
+
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION"/>
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+
+        <activity android:name=".Menu_principal" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".param_herbe"
+            android:label="@string/parm_herb">
+
+        </activity>
+        <activity android:name=".parcour"
+            android:label="@string/c_parc">
+
+        </activity>
+        <activity android:name=".statistique"
+            android:label="@string/statis">
+
+        </activity>
+        <activity android:name=".information"
+            android:label="@string/info">
+
+        </activity>
+        <activity android:name=".bluetooth"
+            android:label="@string/bleut">
+
+        </activity>
+        <activity android:name=".parametre"
+            android:label="@string/param">
+
+        </activity>
+        <activity android:name=".couleur"
+            android:label="Couleur">
+
+        </activity>
+    </application>
+
+</manifest>

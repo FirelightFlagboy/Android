@@ -1,0 +1,28 @@
+language: android
+
+sudo: required
+
+android:
+  components:
+    - tools
+    - tools
+    - build-tools-25.0.2
+    - android-25
+    - extra
+    - platform-tools
+    - tools
+    - extra-android-support
+    - extra-google-google_play_services
+
+jdk:
+    - oraclejdk8
+
+before_script:
+  - chmod +x gradlew
+
+script: ./gradlew assemble
+
+notifications:
+  email:
+    on_success: change
+    on_failure: change
