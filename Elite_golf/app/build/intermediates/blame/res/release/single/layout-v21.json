@@ -1,0 +1,18 @@
+[
+    {
+        "merged": "C:\\Users\\Florian\\AndroidStudioProjects\\Android_repo\\Elite_golf\\app\\build\\intermediates\\res\\merged\\release\\layout-v21\\notification_action.xml",
+        "source": "C:\\Users\\Florian\\.android\\build-cache\\cca865d45d8cec7ec8186ca2108c1996b3d094ef\\output\\res\\layout-v21\\notification_action.xml"
+    },
+    {
+        "merged": "C:\\Users\\Florian\\AndroidStudioProjects\\Android_repo\\Elite_golf\\app\\build\\intermediates\\res\\merged\\release\\layout-v21\\notification_template_icon_group.xml",
+        "source": "C:\\Users\\Florian\\.android\\build-cache\\cca865d45d8cec7ec8186ca2108c1996b3d094ef\\output\\res\\layout-v21\\notification_template_icon_group.xml"
+    },
+    {
+        "merged": "C:\\Users\\Florian\\AndroidStudioProjects\\Android_repo\\Elite_golf\\app\\build\\intermediates\\res\\merged\\release\\layout-v21\\notification_action_tombstone.xml",
+        "source": "C:\\Users\\Florian\\.android\\build-cache\\cca865d45d8cec7ec8186ca2108c1996b3d094ef\\output\\res\\layout-v21\\notification_action_tombstone.xml"
+    },
+    {
+        "merged": "C:\\Users\\Florian\\AndroidStudioProjects\\Android_repo\\Elite_golf\\app\\build\\intermediates\\res\\merged\\release\\layout-v21\\notification_template_custom_big.xml",
+        "source": "C:\\Users\\Florian\\.android\\build-cache\\cca865d45d8cec7ec8186ca2108c1996b3d094ef\\output\\res\\layout-v21\\notification_template_custom_big.xml"
+    }
+]

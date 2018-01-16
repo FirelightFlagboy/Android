@@ -1,0 +1,126 @@
+-- Merging decision tree log ---
+manifest
+ADDED from C:\Users\Florian\AndroidStudioProjects\Android_repo\Elite_golf\app\src\main\AndroidManifest.xml:2:1-51:12
+	package
+		ADDED from C:\Users\Florian\AndroidStudioProjects\Android_repo\Elite_golf\app\src\main\AndroidManifest.xml:3:5-45
+		INJECTED from C:\Users\Florian\AndroidStudioProjects\Android_repo\Elite_golf\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Florian\AndroidStudioProjects\Android_repo\Elite_golf\app\src\main\AndroidManifest.xml
+	android:versionName
+		INJECTED from C:\Users\Florian\AndroidStudioProjects\Android_repo\Elite_golf\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Florian\AndroidStudioProjects\Android_repo\Elite_golf\app\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from C:\Users\Florian\AndroidStudioProjects\Android_repo\Elite_golf\app\src\main\AndroidManifest.xml:2:11-69
+	android:versionCode
+		INJECTED from C:\Users\Florian\AndroidStudioProjects\Android_repo\Elite_golf\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Florian\AndroidStudioProjects\Android_repo\Elite_golf\app\src\main\AndroidManifest.xml
+uses-permission#android.permission.ACCESS_COARSE_LOCATION
+ADDED from C:\Users\Florian\AndroidStudioProjects\Android_repo\Elite_golf\app\src\main\AndroidManifest.xml:5:5-80
+	android:name
+		ADDED from C:\Users\Florian\AndroidStudioProjects\Android_repo\Elite_golf\app\src\main\AndroidManifest.xml:5:22-78
+application
+ADDED from C:\Users\Florian\AndroidStudioProjects\Android_repo\Elite_golf\app\src\main\AndroidManifest.xml:7:5-49:19
+MERGED from [com.integreight.onesheeld:sdk:2.2.0] C:\Users\Florian\.android\build-cache\5113b4959bcf53e9f8e10bca913199b79072c08f\output\AndroidManifest.xml:14:5-17:19
+MERGED from [com.android.support:appcompat-v7:25.1.0] C:\Users\Florian\.android\build-cache\cca865d45d8cec7ec8186ca2108c1996b3d094ef\output\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-v4:25.1.0] C:\Users\Florian\.android\build-cache\2da53cce582a69636376dcbec3568d2cc60db0c5\output\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-fragment:25.1.0] C:\Users\Florian\.android\build-cache\989a0ea27338cde4dbd33a7da7aea9404e40b478\output\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-media-compat:25.1.0] C:\Users\Florian\.android\build-cache\140feb9f81e7478e8ed0435e1fdd94175db7bcb5\output\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-core-ui:25.1.0] C:\Users\Florian\.android\build-cache\7a730c292ad00c86a0c7178e1fe9082c9bbe22b4\output\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-core-utils:25.1.0] C:\Users\Florian\.android\build-cache\12aa3501b83a71a2a3eba34126af2266e665fa81\output\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:animated-vector-drawable:25.1.0] C:\Users\Florian\.android\build-cache\c143fe6bc8d516bd31c10905bb2f950f6c690a91\output\AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:support-vector-drawable:25.1.0] C:\Users\Florian\.android\build-cache\911d158799595d9e47d5afddeba688fb09ee29b7\output\AndroidManifest.xml:23:5-20
+MERGED from [com.android.support:support-compat:25.1.0] C:\Users\Florian\.android\build-cache\7b9ad60307ee49339c818ea82cc473d441423fbe\output\AndroidManifest.xml:25:5-20
+	android:label
+		ADDED from C:\Users\Florian\AndroidStudioProjects\Android_repo\Elite_golf\app\src\main\AndroidManifest.xml:10:9-41
+	android:supportsRtl
+		ADDED from C:\Users\Florian\AndroidStudioProjects\Android_repo\Elite_golf\app\src\main\AndroidManifest.xml:11:9-35
+	android:allowBackup
+		ADDED from C:\Users\Florian\AndroidStudioProjects\Android_repo\Elite_golf\app\src\main\AndroidManifest.xml:8:9-35
+	android:icon
+		ADDED from C:\Users\Florian\AndroidStudioProjects\Android_repo\Elite_golf\app\src\main\AndroidManifest.xml:9:9-43
+	android:theme
+		ADDED from C:\Users\Florian\AndroidStudioProjects\Android_repo\Elite_golf\app\src\main\AndroidManifest.xml:12:9-40
+activity#com.lord_arduino.fr.elite_golf.Menu_principal
+ADDED from C:\Users\Florian\AndroidStudioProjects\Android_repo\Elite_golf\app\src\main\AndroidManifest.xml:14:9-20:20
+	android:name
+		ADDED from C:\Users\Florian\AndroidStudioProjects\Android_repo\Elite_golf\app\src\main\AndroidManifest.xml:14:19-49
+intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
+ADDED from C:\Users\Florian\AndroidStudioProjects\Android_repo\Elite_golf\app\src\main\AndroidManifest.xml:15:13-19:29
+action#android.intent.action.MAIN
+ADDED from C:\Users\Florian\AndroidStudioProjects\Android_repo\Elite_golf\app\src\main\AndroidManifest.xml:16:17-69
+	android:name
+		ADDED from C:\Users\Florian\AndroidStudioProjects\Android_repo\Elite_golf\app\src\main\AndroidManifest.xml:16:25-66
+category#android.intent.category.LAUNCHER
+ADDED from C:\Users\Florian\AndroidStudioProjects\Android_repo\Elite_golf\app\src\main\AndroidManifest.xml:18:17-77
+	android:name
+		ADDED from C:\Users\Florian\AndroidStudioProjects\Android_repo\Elite_golf\app\src\main\AndroidManifest.xml:18:27-74
+activity#com.lord_arduino.fr.elite_golf.param_herbe
+ADDED from C:\Users\Florian\AndroidStudioProjects\Android_repo\Elite_golf\app\src\main\AndroidManifest.xml:21:9-24:20
+	android:label
+		ADDED from C:\Users\Florian\AndroidStudioProjects\Android_repo\Elite_golf\app\src\main\AndroidManifest.xml:22:13-46
+	android:name
+		ADDED from C:\Users\Florian\AndroidStudioProjects\Android_repo\Elite_golf\app\src\main\AndroidManifest.xml:21:19-46
+activity#com.lord_arduino.fr.elite_golf.parcour
+ADDED from C:\Users\Florian\AndroidStudioProjects\Android_repo\Elite_golf\app\src\main\AndroidManifest.xml:25:9-28:20
+	android:label
+		ADDED from C:\Users\Florian\AndroidStudioProjects\Android_repo\Elite_golf\app\src\main\AndroidManifest.xml:26:13-43
+	android:name
+		ADDED from C:\Users\Florian\AndroidStudioProjects\Android_repo\Elite_golf\app\src\main\AndroidManifest.xml:25:19-42
+activity#com.lord_arduino.fr.elite_golf.statistique
+ADDED from C:\Users\Florian\AndroidStudioProjects\Android_repo\Elite_golf\app\src\main\AndroidManifest.xml:29:9-32:20
+	android:label
+		ADDED from C:\Users\Florian\AndroidStudioProjects\Android_repo\Elite_golf\app\src\main\AndroidManifest.xml:30:13-43
+	android:name
+		ADDED from C:\Users\Florian\AndroidStudioProjects\Android_repo\Elite_golf\app\src\main\AndroidManifest.xml:29:19-46
+activity#com.lord_arduino.fr.elite_golf.information
+ADDED from C:\Users\Florian\AndroidStudioProjects\Android_repo\Elite_golf\app\src\main\AndroidManifest.xml:33:9-36:20
+	android:label
+		ADDED from C:\Users\Florian\AndroidStudioProjects\Android_repo\Elite_golf\app\src\main\AndroidManifest.xml:34:13-41
+	android:name
+		ADDED from C:\Users\Florian\AndroidStudioProjects\Android_repo\Elite_golf\app\src\main\AndroidManifest.xml:33:19-46
+activity#com.lord_arduino.fr.elite_golf.bluetooth
+ADDED from C:\Users\Florian\AndroidStudioProjects\Android_repo\Elite_golf\app\src\main\AndroidManifest.xml:37:9-40:20
+	android:label
+		ADDED from C:\Users\Florian\AndroidStudioProjects\Android_repo\Elite_golf\app\src\main\AndroidManifest.xml:38:13-42
+	android:name
+		ADDED from C:\Users\Florian\AndroidStudioProjects\Android_repo\Elite_golf\app\src\main\AndroidManifest.xml:37:19-44
+activity#com.lord_arduino.fr.elite_golf.parametre
+ADDED from C:\Users\Florian\AndroidStudioProjects\Android_repo\Elite_golf\app\src\main\AndroidManifest.xml:41:9-44:20
+	android:label
+		ADDED from C:\Users\Florian\AndroidStudioProjects\Android_repo\Elite_golf\app\src\main\AndroidManifest.xml:42:13-42
+	android:name
+		ADDED from C:\Users\Florian\AndroidStudioProjects\Android_repo\Elite_golf\app\src\main\AndroidManifest.xml:41:19-44
+activity#com.lord_arduino.fr.elite_golf.couleur
+ADDED from C:\Users\Florian\AndroidStudioProjects\Android_repo\Elite_golf\app\src\main\AndroidManifest.xml:45:9-48:20
+	android:label
+		ADDED from C:\Users\Florian\AndroidStudioProjects\Android_repo\Elite_golf\app\src\main\AndroidManifest.xml:46:13-36
+	android:name
+		ADDED from C:\Users\Florian\AndroidStudioProjects\Android_repo\Elite_golf\app\src\main\AndroidManifest.xml:45:19-42
+uses-sdk
+INJECTED from C:\Users\Florian\AndroidStudioProjects\Android_repo\Elite_golf\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+MERGED from [com.integreight.onesheeld:sdk:2.2.0] C:\Users\Florian\.android\build-cache\5113b4959bcf53e9f8e10bca913199b79072c08f\output\AndroidManifest.xml:7:5-9:41
+MERGED from [io.github.controlwear:virtualjoystick:1.0.1] C:\Users\Florian\.android\build-cache\1066185a9abc4c465a8c67581205ad633afb7d3e\output\AndroidManifest.xml:8:5-10:41
+MERGED from [com.android.support:appcompat-v7:25.1.0] C:\Users\Florian\.android\build-cache\cca865d45d8cec7ec8186ca2108c1996b3d094ef\output\AndroidManifest.xml:21:5-23:78
+MERGED from [com.android.support:support-v4:25.1.0] C:\Users\Florian\.android\build-cache\2da53cce582a69636376dcbec3568d2cc60db0c5\output\AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:support-fragment:25.1.0] C:\Users\Florian\.android\build-cache\989a0ea27338cde4dbd33a7da7aea9404e40b478\output\AndroidManifest.xml:21:5-23:60
+MERGED from [com.android.support:support-media-compat:25.1.0] C:\Users\Florian\.android\build-cache\140feb9f81e7478e8ed0435e1fdd94175db7bcb5\output\AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-core-ui:25.1.0] C:\Users\Florian\.android\build-cache\7a730c292ad00c86a0c7178e1fe9082c9bbe22b4\output\AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-core-utils:25.1.0] C:\Users\Florian\.android\build-cache\12aa3501b83a71a2a3eba34126af2266e665fa81\output\AndroidManifest.xml:21:5-23:61
+MERGED from [com.android.support:animated-vector-drawable:25.1.0] C:\Users\Florian\.android\build-cache\c143fe6bc8d516bd31c10905bb2f950f6c690a91\output\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:25.1.0] C:\Users\Florian\.android\build-cache\911d158799595d9e47d5afddeba688fb09ee29b7\output\AndroidManifest.xml:21:5-43
+MERGED from [com.android.support:support-compat:25.1.0] C:\Users\Florian\.android\build-cache\7b9ad60307ee49339c818ea82cc473d441423fbe\output\AndroidManifest.xml:21:5-23:58
+	tools:overrideLibrary
+		ADDED from [com.android.support:appcompat-v7:25.1.0] C:\Users\Florian\.android\build-cache\cca865d45d8cec7ec8186ca2108c1996b3d094ef\output\AndroidManifest.xml:23:9-75
+	android:targetSdkVersion
+		INJECTED from C:\Users\Florian\AndroidStudioProjects\Android_repo\Elite_golf\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Florian\AndroidStudioProjects\Android_repo\Elite_golf\app\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from C:\Users\Florian\AndroidStudioProjects\Android_repo\Elite_golf\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Florian\AndroidStudioProjects\Android_repo\Elite_golf\app\src\main\AndroidManifest.xml
+uses-permission#android.permission.BLUETOOTH
+ADDED from [com.integreight.onesheeld:sdk:2.2.0] C:\Users\Florian\.android\build-cache\5113b4959bcf53e9f8e10bca913199b79072c08f\output\AndroidManifest.xml:11:5-68
+	android:name
+		ADDED from [com.integreight.onesheeld:sdk:2.2.0] C:\Users\Florian\.android\build-cache\5113b4959bcf53e9f8e10bca913199b79072c08f\output\AndroidManifest.xml:11:22-65
+uses-permission#android.permission.BLUETOOTH_ADMIN
+ADDED from [com.integreight.onesheeld:sdk:2.2.0] C:\Users\Florian\.android\build-cache\5113b4959bcf53e9f8e10bca913199b79072c08f\output\AndroidManifest.xml:12:5-74
+	android:name
+		ADDED from [com.integreight.onesheeld:sdk:2.2.0] C:\Users\Florian\.android\build-cache\5113b4959bcf53e9f8e10bca913199b79072c08f\output\AndroidManifest.xml:12:22-71

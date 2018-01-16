@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <View
+        android:layout_marginBottom="5dip"
+        android:layout_height="50dip"
+        android:background="@color/colorPrimary"
+        android:layout_width="match_parent"
+        android:id="@+id/View"
+        />
+    <Button
+        style="@style/icon_menu"
+        android:id="@+id/Menu" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        style="@style/title_msg"
+        android:layout_alignBaseline="@id/Menu"
+        android:textColor="@color/colorWhite"
+        android:layout_centerInParent="true"
+        android:text="Information"/>
+</RelativeLayout>

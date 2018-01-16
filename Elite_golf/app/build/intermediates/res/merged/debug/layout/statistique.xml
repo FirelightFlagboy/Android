@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <View
+        android:layout_marginBottom="5dip"
+        android:layout_height="50dip"
+        android:background="@color/colorPrimary"
+        android:layout_width="match_parent"
+        android:id="@+id/View"
+        />
+    <Button
+        style="@style/icon_menu"
+        android:id="@+id/Menu" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        style="@style/title_msg"
+        android:layout_alignBaseline="@id/Menu"
+        android:textColor="@color/colorWhite"
+        android:layout_centerInParent="true"
+        android:text="Statistique"/>
+    <Button
+        style="@style/icon_option"
+        android:layout_alignParentRight="true"
+        android:layout_alignBaseline="@id/Menu"
+        android:id="@+id/Option"/>
+    
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/Menu">
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/Tableau"
+            android:stretchColumns="6">
+            <TableRow>
+                <TextView
+                    android:textSize="@dimen/table_case"
+                    android:textColor="@color/colorBlack"
+                    android:text="N° "
+                    />
+                <TextView
+                    android:textSize="@dimen/table_case"
+                    android:textColor="@color/colorBlack"
+                    android:text="Date "/>
+                <TextView
+                    android:textSize="@dimen/table_case"
+                    android:textColor="@color/colorBlack"
+                    android:text="Lieu "/>
+                <TextView
+                    android:textSize="@dimen/table_case"
+                    android:textColor="@color/colorBlack"
+                    android:text="Durée "/>
+                <TextView
+                    android:textSize="@dimen/table_case"
+                    android:textColor="@color/colorBlack"
+                    android:text="Nombre de coup "/>
+                <TextView
+                    android:textSize="@dimen/table_case"
+                    android:textColor="@color/colorBlack"
+                    android:text="Distance"/>
+            </TableRow>
+        </TableLayout>
+    </ScrollView>
+
+</RelativeLayout>

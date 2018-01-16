@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <View
+        android:layout_marginBottom="5dip"
+        android:layout_height="50dip"
+        android:background="@color/colorPrimary"
+        android:layout_width="match_parent"
+        android:id="@+id/View"
+        />
+    <Button
+        style="@style/icon_menu"
+        android:id="@+id/Menu" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        style="@style/title_msg"
+        android:layout_alignBaseline="@id/Menu"
+        android:textColor="@color/colorWhite"
+        android:layout_centerInParent="true"
+        android:text="Parcour"/>
+    <Button
+        style="@style/icon_option"
+        android:layout_alignBaseline="@id/Menu"
+        android:layout_alignParentRight="true"
+        android:id="@+id/Option"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/Play"
+        android:text="play"
+        android:layout_below="@id/Menu" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/Play"
+        android:id="@+id/Pause"
+        android:layout_below="@id/Menu"
+        android:text="pause"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/Menu"
+        android:layout_toRightOf="@id/Pause"
+        android:id="@+id/Stop"
+        android:text="Stop"/>
+
+    <Chronometer
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/chronome"
+        android:layout_toRightOf="@id/Stop"
+        android:layout_alignBottom="@id/Pause"
+        android:layout_marginLeft="40dp"
+        android:gravity="center"
+        android:layout_below="@id/Menu"
+        android:textSize="20sp" />
+    <View
+        android:layout_marginTop="5dip"
+        android:layout_marginBottom="5dip"
+        android:layout_height="4dip"
+        android:background="@color/colorGrey"
+        android:layout_width="match_parent"
+        android:id="@+id/barra"
+        android:layout_below="@id/Stop"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/c_club"
+        android:id="@+id/Club"
+        android:layout_below="@id/barra"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/Club"
+        android:text="frappe réaliser"
+        android:id="@+id/Coup"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/Club"
+        android:layout_toRightOf="@id/Coup"
+        android:id="@+id/End"
+        android:text="Parcour Terminer"/>
+
+
+
+</RelativeLayout>
