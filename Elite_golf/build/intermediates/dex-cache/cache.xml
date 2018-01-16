@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="false"
+        jar="C:\Users\Florian\.android\build-cache\c143fe6bc8d516bd31c10905bb2f950f6c690a91\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="6fb6ac3e8d3b9013819920d9ea11f3803c4c0033">
+        <dex dex="C:\Users\Florian\AndroidStudioProjects\Android_repo\Elite_golf\app\build\intermediates\pre-dexed\release\classes_c189f12897de905f498d25c880b2061272203d3f.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Florian\.android\build-cache\cca865d45d8cec7ec8186ca2108c1996b3d094ef\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="1630658fbc2d222b988603c27b4a4249586fbfe7">
+        <dex dex="C:\Users\Florian\AndroidStudioProjects\Android_repo\Elite_golf\app\build\intermediates\pre-dexed\release\classes_95931b07ae6f347dd4689aff9b79be53ccb5061b.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Florian\.android\build-cache\2da53cce582a69636376dcbec3568d2cc60db0c5\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="C:\Users\Florian\AndroidStudioProjects\Android_repo\Elite_golf\app\build\intermediates\pre-dexed\release\classes_ccaa1b6342555aa4f82502ba449d15fa0243fed0.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Florian\.android\build-cache\12aa3501b83a71a2a3eba34126af2266e665fa81\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="0a0ef86b7fa568a52bf6214a0326ca1f1d618da7">
+        <dex dex="C:\Users\Florian\AndroidStudioProjects\Android_repo\Elite_golf\app\build\intermediates\pre-dexed\release\classes_c17f8fc44772d3720000ebebb135844022a02926.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Florian\.android\build-cache\7a730c292ad00c86a0c7178e1fe9082c9bbe22b4\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="aee64634871d88a419d59eb743c1258a60f19700">
+        <dex dex="C:\Users\Florian\AndroidStudioProjects\Android_repo\Elite_golf\app\build\intermediates\pre-dexed\release\classes_349723209c0b8ee151f286cb0f4020924d314e12.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Florian\.android\build-cache\140feb9f81e7478e8ed0435e1fdd94175db7bcb5\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="f02263e35e52668dd17b73bf961437e3d562b35f">
+        <dex dex="C:\Users\Florian\AndroidStudioProjects\Android_repo\Elite_golf\app\build\intermediates\pre-dexed\release\classes_276871d650a49581d68e127f6f9500c3737ef6b0.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Florian\.android\build-cache\911d158799595d9e47d5afddeba688fb09ee29b7\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="e79aa3d9a16f8c9f16377c0608de70a8f31e5d80">
+        <dex dex="C:\Users\Florian\AndroidStudioProjects\Android_repo\Elite_golf\app\build\intermediates\pre-dexed\release\classes_878e5c7a625bb9f18d9616403b3841960e205cd8.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Florian\.android\build-cache\989a0ea27338cde4dbd33a7da7aea9404e40b478\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="2a53c4f3518116b8c6aee0e477233f0f7da8616f">
+        <dex dex="C:\Users\Florian\AndroidStudioProjects\Android_repo\Elite_golf\app\build\intermediates\pre-dexed\release\classes_936e76281b653118879ed3dd7f83850e5cad5a54.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Florian\.android\build-cache\7b9ad60307ee49339c818ea82cc473d441423fbe\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="ca3c7aa31e2726a400a6e552b93cb9f63c9a1e6d">
+        <dex dex="C:\Users\Florian\AndroidStudioProjects\Android_repo\Elite_golf\app\build\intermediates\pre-dexed\release\classes_7389d9bf06fc8a95aa9f5eb757c373392201a01e.jar" />
+    </item>
+
+</items>
